@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(26, 25, 25, 0.641);
+    background-color: rgb(33, 31, 31);
 }
 
 .container{
@@ -19,14 +19,50 @@ body{
     margin: 25px;
     width: 125px;
     height: 145px;
-    background-color: antiquewhite;
+    background-color: rgb(210, 135, 37);
+    border-radius: 10px;
+}
+
+.perfis:hover{
+    border: 4px solid rgb(225, 225, 17);
+    color: rgb(255, 106, 0);
+    background-color: rgb(237, 235, 235);
+    cursor: progress;
+    transform: scale(1.2);
+    transition-delay: 0.2s;
 }
 
 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 200;
-    font-size: 75px;
-    margin-top: 5%;
+    font-weight: unset;
+    font-size: 3.5vw;
+    margin-top: 15%;
+    width: 100%;
+    opacity: 1;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.boton{
+    text-align: center;
+
+}
+
+button{
+    background-color: rgb(33, 31, 31);
+    color: rgba(225, 216, 216, 0.748);
+    border: 2px solid gray;
+    padding: .5rem 1rem;
+}
+
+button:hover{
+    border: 2px solid white;
+    color: white;
 }
